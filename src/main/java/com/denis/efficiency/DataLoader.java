@@ -15,9 +15,12 @@ public class DataLoader implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        wordDao.save(new Word("Apple", "Щедевр"));
-        wordDao.save(new Word("Microsoft", "Дерьмо"));
-        wordDao.save(new Word("Intel", "Норм"));
-        wordDao.save(new Word("AMD", "Assholes"));
+        wordDao.save(new Word("Apple", "Яблоко"));
+        wordDao.save(new Word("Orange", "Апельсин"));
+        wordDao.save(new Word("Banana", "Банан"));
+        wordDao.save(new Word("Coconut", "Какос"));
+        wordDao.save(new Word("Nuts", "Орешки"));
+        wordDao.save(new Word("Coffee", "Кофе"));
+        wordDao.save(new Word("Tea", "Чай"));
     }
 }
